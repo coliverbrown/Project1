@@ -19,6 +19,7 @@ Use this script to align raw reads to an indexed reference sequence. This will o
 2. Edit the script and `accession_num.txt` to correspond to your data.  
 3. Include `accession_num.txt` as the input file and run the script.  
 4. This script takes a while to run so check the size of files as they are created. 
+5. Once the script has run, you will have `.sam` files corresponding to each individual.  
 
 ## Dependencies:  
 Burrows-Wheeler Aligner - [BWA](https://bio-bwa.sourceforge.net/)
